@@ -1639,7 +1639,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgb(255, 255, 255);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -2083,7 +2083,7 @@
 				transition-delay: 1s;
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
-				-ms-transform: scale(1);
+				-ms-transform: scale(1);m
 				transform: scale(1);
 				position: absolute;
 				left: 3em;
@@ -2883,7 +2883,7 @@
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.35);
+		color: rgba(255, 255, 255);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -3020,17 +3020,17 @@
 		}
 
 		.spotlights > section > .image {
-			background-position: center center;
+			background-position: right;
 			background-size: cover;
 			border-radius: 0;
-			display: block;
+			display: inline;
 			position: relative;
-			width: 25em;
+			width: 25%;
 		}
 
 			.spotlights > section > .image img {
 				border-radius: 0;
-				display: block;
+				display: inline;
 			}
 
 			.spotlights > section > .image:before {
@@ -3063,7 +3063,7 @@
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
+			width: 75%;
 			-ms-flex: 1;
 		}
 
